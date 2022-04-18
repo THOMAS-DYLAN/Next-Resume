@@ -1,0 +1,59 @@
+.nav{
+  background-color: black;
+  display: inline-flex;
+  width: 100vw;
+  height: 80px;
+}
+
+ul{
+  list-style: none;
+  color: white;
+  display: inline-flex;
+  margin-left: 41%;
+}
+
+li{
+  padding-right: 15%;
+  width: fit-content;
+  font-size: 27px;
+  font-weight: normal;
+  margin-top: 7px;
+}
+
+p{
+  color: white;
+}
+
+.name{
+  font-size: 35px;
+  font-family: Segoe Script;
+  margin-top: -3px;
+  color: white;
+}
+
+.position{
+  color: white;
+  margin-top: -15px;
+  font-size: 25px;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li:hover{
+  font-size: 30px;
+  font-weight: 900;
+  color: orange;
+  transition: .5s;
+}
+
+p:hover{
+  color: orange;
+}
+
+a:hover{
+  color: yellow;
+}
+
+h1:hover{
+  color: orange;
+}

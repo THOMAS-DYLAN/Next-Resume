@@ -1,0 +1,84 @@
+body {
+  height: 99.9vh;
+}
+
+.exprMain .skillsName {
+  width: 100%;
+  height: 22vh;
+  margin-top: -1vh;
+  background-color: rgb(38, 38, 38);
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: -2vh;
+  color: white;
+}
+.exprMain .skillsName:hover {
+  color: orange;
+  transition: color 3s;
+  cursor: default;
+}
+.exprMain .skillsMain {
+  background: rgb(38, 38, 38);
+}
+.exprMain .skillsMain .skills {
+  color: white;
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  margin-left: 2%;
+}
+.exprMain .skillsMain .skills .skill {
+  text-align: center;
+  margin-left: 2%;
+}
+.exprMain .skillsMain .skills .skill h2 {
+  margin-bottom: -1px;
+}
+.exprMain .skillsMain .skills .skill:hover h2 {
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+.exprMain .skillsMain .skills .skill.Next {
+  font-size: 25px;
+}
+.exprMain .skillsMain .skills .skill.Next:hover .next.next {
+  color: black;
+  border-radius: 58%;
+  border: 2px solid white;
+  background-color: white;
+}
+.exprMain .skillsMain .skills .skill.Next .next.next {
+  height: 110px;
+  width: 110px;
+  margin-top: 4%;
+}
+.exprMain .skillsMain .skills .skill.React:hover {
+  color: rgb(97, 219, 251);
+}
+.exprMain .skillsMain .skills .skill.BS:hover {
+  color: rgb(124, 74, 110);
+}
+.exprMain .skillsMain .skills .skill.BS .bs.bs {
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+}
+.exprMain .skillsMain .skills .skill.JS:hover {
+  color: yellow;
+}
+.exprMain .skillsMain .skills .skill.NODE:hover {
+  color: rgb(60, 135, 58);
+  text-shadow: 3.2px 3.2px rgb(124, 180, 119);
+}
+.exprMain .skillsMain .skills .skill.CSS:hover {
+  color: rgb(38, 77, 228);
+}
+.exprMain .skillsMain .skills .skill.HTML:hover {
+  color: red;
+}
+.exprMain .skillsMain .skills .skill.SCSS:hover {
+  color: rgb(205, 103, 153);
+}/*# sourceMappingURL=skills.css.map */

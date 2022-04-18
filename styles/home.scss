@@ -1,0 +1,166 @@
+body {
+  height: 100vh;
+  background-color: transparent;
+}
+
+.mainContent {
+  height: calc(100vh - 80px);
+  display: inline-flex;
+  overflow-x: hidden;
+  color: white;
+  text-align: center;
+  button {
+    background: white;
+    border-radius: 35px;
+    height: 40px;
+    width: 150px;
+  }
+  button:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+  }
+  img {
+    height: calc(100vh - 84px);
+    width: 50vw;
+    border: none;
+  }
+  div {
+    height: calc(100vh - 75px);
+    width: 55vw;
+    z-index: 1000;
+    margin-left: -5vw;
+    background: linear-gradient(
+      to right,
+      rgba(37, 36, 36, 0.7),
+      rgba(27, 26, 26, 1)
+    );
+  }
+
+  .homeName {
+    font-size: 60px;
+    color: orange;
+  }
+
+  .homePosition {
+    font-size: 40px;
+    margin-top: -20px;
+  }
+
+  p {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 25px;
+  }
+
+  .a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .homeDescription {
+    &:hover {
+      color: white;
+    }
+  }
+
+  .quickSkills {
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 45%;
+    margin-left: 0.3%;
+    background: transparent;
+    margin-top: -10%;
+    &:hover {
+      cursor: default;
+    }
+    .next {
+      height: 66.1px;
+      width: 65px;
+      margin-top: -10px;
+      margin-bottom: -5px;
+    }
+    .bs {
+      height: 66.1px;
+      width: 65px;
+    }
+    h2 {
+      font-size: 25px;
+    }
+    .quickSkill {
+      background: transparent;
+      margin-top: 12%;
+      &.Next {
+        font-size: 25px;
+        &:hover {
+          .next {
+            &.next {
+              color: black;
+              border-radius: 58%;
+              border: 2px solid white;
+              background-color: white;
+            }
+          }
+          h2 {
+            font-size: 25px;
+            color: white;
+          }
+        }
+        .next {
+          &.next {
+            height: 110px;
+            width: 110px;
+            margin-top: 4%;
+          }
+        }
+      }
+      &.React {
+        &:hover {
+          color: rgb(97, 219, 251);
+        }
+      }
+      &.BS {
+        margin-top: 11.5%;
+        &:hover {
+          color: rgb(124, 74, 110);
+        }
+        .bs {
+          &.bs {
+            height: 100px;
+            width: 100px;
+            margin-top: 10px;
+          }
+        }
+      }
+      &.JS {
+        &:hover {
+          color: yellow;
+        }
+      }
+      &.NODE {
+        &:hover {
+          color: rgb(60, 135, 58);
+          text-shadow: 3.2px 3.2px rgb(124, 180, 119);
+        }
+      }
+      &.CSS {
+        &:hover {
+          color: rgb(38, 77, 228);
+        }
+      }
+      &.HTML {
+        &:hover {
+          color: red;
+        }
+      }
+      &.SCSS {
+        &:hover {
+          color: rgb(205, 103, 153);
+        }
+      }
+      width: 24%;
+      margin-left: 1%;
+      height: 35%;
+    }
+  }
+}

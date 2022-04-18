@@ -1,0 +1,7 @@
+.aboutP{
+  color: black
+}
+
+.aboutP:hover{
+  font-size: large;
+}
